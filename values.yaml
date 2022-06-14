@@ -47,7 +47,7 @@ args:
   # running_in_cluster:
   # use_node_internal:
   # use_secrets:
-  # insecure: true
+  insecure: true
   # custom-resource-mode: true
   # log-as3-response: true
   # gtm-bigip-password
@@ -55,14 +55,13 @@ args:
   # gtm-bigip-username
   # ipam : true
   
- 
+version: latest
 
 image:
   # Use the tag to target a specific version of the Controller
   user: f5networks
   repo: k8s-bigip-ctlr
   pullPolicy: Always
-  version: latest
 # affinity:
 #   nodeAffinity:
 #     requiredDuringSchedulingIgnoredDuringExecution:
