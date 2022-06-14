@@ -19,7 +19,7 @@ ingressClass:
   create: true
   ingressClassName: f5
   isDefaultIngressController: true
-namespace: kube-system
+namespace: default
 args:
   pool-member-type: nodeportlocal
   # See http://clouddocs.f5.com/products/connectors/k8s-bigip-ctlr/latest/#controller-configuration-parameters
