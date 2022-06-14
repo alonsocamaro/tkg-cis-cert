@@ -25,7 +25,7 @@ args:
   # NOTE: helm has difficulty with values using `-`; `_` are used for naming
   # and are replaced with `-` during rendering.
   # REQUIRED Params
-  bigip_url: "192.168.100.151"
+  bigip_url: "192.168.100.151:8443"
   bigip_partition: f5-bigip-ctlr
   # OPTIONAL PARAMS -- uncomment and provide values for those you wish to use.
   # verify_interval:
