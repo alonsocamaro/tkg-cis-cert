@@ -1,6 +1,7 @@
 
 kubectl apply -f service.yaml
 kubectl apply -f ingress.yaml
+sleep 60
 
 while true ; do
   date
