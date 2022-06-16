@@ -1,5 +1,5 @@
 
-if [ $# -ne 1] then
+if [ $# -ne 1]; then
   echo need a password as argument
   exit 1
 fi
